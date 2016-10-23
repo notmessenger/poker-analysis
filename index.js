@@ -1,5 +1,5 @@
-captureInput()
+processInput()
 
-function captureInput () {
+function processInput () {
   console.log(process.argv[2])
 }

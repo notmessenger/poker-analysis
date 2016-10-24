@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "./node_modules/.bin/standard --verbose | snazzy",
     "test": "./node_modules/.bin/mocha --recursive",
-    "test-all": "npm run lint && npm test"
+    "ci": "npm run lint && npm test"
   },
   "author": "Jeremy Brown <jeremy@notmessenger.com> (http://www.notmessenger.com)",
   "license": "MIT",

@@ -1,3 +1,4 @@
+const AppError = require('../../../lib/errors/app')
 const assert = require('assert')
 const ValidationError = require('../../../lib/errors/validation')
 
@@ -18,6 +19,11 @@ it('Error details', function () {
     assert(
       err instanceof ValidationError,
       'Is an instance of its class'
+    )
+
+    assert(
+      err instanceof AppError,
+      'Is instance of AppError'
     )
 
     assert(

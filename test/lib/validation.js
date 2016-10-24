@@ -86,5 +86,21 @@ describe('Card validation', function () {
         )
       }
     })
+
+    it('Does not contain a wild card', function () {
+      assert.strictEqual(
+        validation.containsWildcard ('Ah 3c 5s 9d 7h'),
+        false,
+        'No wild card'
+      )
+    })
+
+    it('Contains a wild card', function () {
+      assert.strictEqual(
+        validation.containsWildcard ('Ah 3c 5s 0r 7h'),
+        true,
+        'Wild card'
+      )
+    })
   })
 })

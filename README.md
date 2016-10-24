@@ -10,9 +10,9 @@ Poker analysis code challenge program for https://gist.github.com/psbanka/176971
 
 # Usage
 
-* `> node index.js "4d 6h 8d Kh Ah"
-* `> node index.js "4d 5d 8d Td Ad"
-* `> node index.js "Ah Th Kd Qc Js"
+* `> node index.js "4d 6h 8d Kh Ah"`
+* `> node index.js "4d 5d 8d Td Ad"`
+* `> node index.js "Ah Th Kd Qc Js"`
 
 
 # Linting

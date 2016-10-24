@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/standard --verbose | snazzy",
-    "test": "./node_modules/.bin/mocha",
+    "test": "./node_modules/.bin/mocha --recursive",
     "test-all": "npm run lint && npm test"
   },
   "author": "Jeremy Brown <jeremy@notmessenger.com> (http://www.notmessenger.com)",
@@ -15,5 +15,8 @@
     "mocha": "3.1.2",
     "snazzy": "^5.0.0",
     "standard": "^8.4.0"
+  },
+  "standard": {
+    "globals": [ "describe", "it" ]
   }
 }

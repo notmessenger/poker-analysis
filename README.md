@@ -17,14 +17,14 @@ Poker analysis code challenge program for https://gist.github.com/psbanka/176971
 
 # Linting
 
-* '> npm run lint'
+* `> npm run lint`
 
 
 # Tests
 
-* '> npm run test'
+* `> npm run test`
 
 
 # CI environment (linting and tests)
 
-* '> npm run ci'
+* `> npm run ci`

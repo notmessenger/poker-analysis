@@ -1,5 +1,10 @@
-processInput()
+const chalk = require('chalk')
+const log = console.log
+const input = require('./lib/input')
+const validation = require('./lib/validation.js')
 
-function processInput () {
-  console.log(process.argv[2])
+try {
+  validation.validateCards(input[2])
+} catch (err) {
+  log(chalk.red(err.message))
 }

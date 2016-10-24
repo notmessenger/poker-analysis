@@ -8,9 +8,10 @@ const validation = require('./lib/validation')
 
 try {
   const cards = input[2]
-  const formattedCards = format(cards)
 
   validation.validateCards(cards)
+
+  const formattedCards = format(cards)
 
   log(
     chalk.green(

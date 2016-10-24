@@ -49,21 +49,21 @@ describe('Card validation', function () {
   })
 
   describe('Card data', function () {
-    it('Can accept a Joker', function () {
+    it('Can accept a wild card', function () {
       assert.equal(
         validation.validateCards('Ah 3c 5s 9d 0r'),
         undefined,
-        'One Joker is fine'
+        'One wild card is fine'
       )
     })
 
-    it('Cannot accept more than one Joker', function () {
+    it('Cannot accept more than one wild card', function () {
       try {
         validation.validateCards('Ah 3c 0r 9d 0r')
       } catch (err) {
         assert(
           err instanceof ValidationError,
-          'More than one Joker is not fine'
+          'More than one wild card is not fine'
         )
       }
     })

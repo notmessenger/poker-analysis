@@ -22,7 +22,7 @@ Poker analysis code challenge program for https://gist.github.com/psbanka/176971
 
 # Tests
 
-* `> npm run test`
+* `> npm test`
 
 
 # CI environment (linting and tests)

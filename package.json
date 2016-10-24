@@ -8,6 +8,14 @@
     "test": "./node_modules/.bin/mocha --recursive",
     "ci": "npm run lint && npm test"
   },
+  "engines": {
+    "node": ">= 6.9.1"
+  },
+  "bugs": "https://github.com/notmessenger/poker-analysis/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notmessenger/poker-analysis.git"
+  },
   "author": "Jeremy Brown <jeremy@notmessenger.com> (http://www.notmessenger.com)",
   "license": "MIT",
   "devDependencies": {

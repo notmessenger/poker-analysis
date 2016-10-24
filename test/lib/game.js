@@ -22,7 +22,7 @@ describe('Game', function () {
     it('Straight flush', function () {
       assert.strictEqual(
         game.identifyHand(['9d', '8d', '7d', '6d', '5d']),
-        "Straight Flush, 9d High",
+        'Straight Flush, 9d High',
         'Straight flush'
       )
     })

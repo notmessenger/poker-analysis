@@ -5,26 +5,26 @@ Poker analysis code challenge program for https://gist.github.com/psbanka/176971
 
 # Installation
 
-* `> git clone git@github.com:notmessenger/poker-analysis.git`
-* `> cd poker-analysis`
+* `$ git clone git@github.com:notmessenger/poker-analysis.git`
+* `$ cd poker-analysis`
 
 # Usage
 
-* `> node index.js "4d 6h 8d Kh Ah"`
-* `> node index.js "4d 5d 8d Td Ad"`
-* `> node index.js "Ah Th Kd Qc Js"`
+* `$ node index.js "4d 6h 8d Kh Ah"`
+* `$ node index.js "4d 5d 8d Td Ad"`
+* `$ node index.js "Ah Th Kd Qc Js"`
 
 
 # Linting
 
-* `> npm run lint`
+* `$ npm run lint`
 
 
 # Tests
 
-* `> npm test`
+* `$ npm test`
 
 
 # CI environment (linting and tests)
 
-* `> npm run ci`
+* `$ npm run ci`
